@@ -22,16 +22,16 @@ client.on("message", async (message) => {
 
   if (message.body.toLowerCase() === "!adriel") {
     console.log("Enviando resposta...");
-    await message.reply("lindo, entretanto compromissado!");
+    await message.reply("teste Adriel!");
   } else if (message.body.toLowerCase() === "!marcos") {
     console.log("Enviando resposta...");
-    await message.reply("player de lol!");
+    await message.reply("teste marcos!");
   } else if (message.body.toLowerCase() === "!lucas") {
     console.log("Enviando resposta...");
-    await message.reply("player de valorant!");
+    await message.reply("teste lucas!");
   } else if (message.body.toLowerCase() === "!sarah") {
     console.log("Enviando resposta...");
-    await message.reply("Amor da minha vida!");
+    await message.reply("teste sarah!");
   }
 });
 
