@@ -1,0 +1,56 @@
+node_modules/
+.wwebjs_auth/
+.wwebjs_cache/
+
+🗂️ Diretórios de Build
+dist/
+build/
+
+📝 Arquivos de Log
+logs/
+.log
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+🔒 Arquivos de Configuração de Ambiente
+.env
+.env.test
+.env.production
+
+🛠️ Diretórios de Cobertura de Testes
+coverage/
+
+📦 Arquivos de Pacotes
+package-lock.json
+yarn.lock
+
+🖥️ Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+📁 Ferramentas de Desenvolvimento
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+🗑️ Arquivos Temporários
+tmp/
+temp/
+
+📊 Banco de Dados SQLite (se aplicável)
+*.sqlite
+*.sqlite3
+
+📦 Arquivos Comprimidos
+*.tgz
+*.zip
+
+🔑 Arquivos de Chaves e Certificados
+*.pem
+
+📂 Outros Arquivos/Pastas a Ignorar
+*.bak
+*.backup
+*.swp
